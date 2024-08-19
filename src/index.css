@@ -1,0 +1,50 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  background-color: #f8f9fa;
+}
+
+body {
+  color: var(--color-primary);
+}
+
+/*⇣ Shop ⇣*/
+
+.tableitems {
+  background-color: #333;
+  color: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.tableitems th, .tableitems td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.tableitems tr:hover {
+  background-color: #444;
+}
+
+.tableitems th, .tableitems td {
+  padding: 10px; 
+  border-bottom: 1px solid #444444;
+  text-align: center;
+}
+
+a {
+  text-decoration: none; /* Supprime le soulignement pour tous les liens */
+  color: inherit; /* Garde la couleur du texte héritée */
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none; /* Empêche le soulignement dans tous les états */
+  color: inherit; /* Empêche tout changement de couleur dans tous les états */
+}
